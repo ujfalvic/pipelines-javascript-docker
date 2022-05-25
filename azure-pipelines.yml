@@ -4,7 +4,7 @@
     containerRegistry: 'docker'
     repository: 'pipelines-javascript-docker'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: '**/app/Dockerfile'
 # Build and push an image to Azure Container Registry
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
